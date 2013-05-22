@@ -1,0 +1,57 @@
+*fishruler.txt*     Fish text ruler
+
+fishruler                                                          *fishruler*
+
+    VERSION:      1.1
+    AUTHOR:       Roman Dolgushin <rd@roman-dolgushin.ru>
+    LICENSE:      MIT
+    REPOSITORY:   http://github.com/rdolgushin/fishruler.vim
+
+=============================================================================
+ABOUT                                                        *fishruler-about*
+
+Fishruler allows you to visualize desired amount of the fish text.
+It can be usefull when you create a new database table, web-interface or
+just need some text for testing purposes.
+
+=============================================================================
+FISH CHEATSHEET                                         *fishruler-cheatsheet*
+
+For list of most frequently used text sizes see |fishruler-cheatsheet.txt|.
+It can be accessible through:
+>
+    :h fishruler-cheatsheet.txt
+<
+or
+>
+    :FishCheatsheet
+<
+commands.
+
+=============================================================================
+INSERTING THE FISH TEXT                                     *fishruler-insert*
+
+Following command will insert 400 charcters of the lorem ipsum text:
+>
+    :Fish 400
+<
+You can also insert full lorem ipsum text:
+>
+    :Fish
+<
+
+============================================================================
+RESOURCES                                               *fishruler-resources*
+
+The fish cheatsheet (|fishruler-cheatsheet.txt|) sizes are partially based
+on the following resources:
+
+ - http://stackoverflow.com/questions/20958/list-of-standard-lengths-for-database-fields
+ - http://webarchive.nationalarchives.gov.uk/+/http://www.cabinetoffice.gov.uk/media/254290/GDS%20Catalogue%20Vol%202.pdf
+
+============================================================================
+FEEDBACK                                                 *fishruler-feedback*
+
+If you have any ideas, feel free to open a discussion on the
+https://github.com/rdolgushin/fishruler.vim/issues
+
